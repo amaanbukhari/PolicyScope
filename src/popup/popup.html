@@ -1,0 +1,43 @@
+<!-- Basic structure for summary of the extension. This is where we will be displaying the results of the detections and where the user will be able to interact with the extension.
+  We will be using this as a base for our popup and then we will be adding the necessary logic to display the results of the detections and to allow the user to interact with the extension. -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>PolicyScope</title>
+  </head>
+  <body>
+    <div id="mainView">
+      <div class="header">
+        <h1>PolicyScope</h1>
+        <p class="subtitle">Flagged clauses worth reviewing</p>
+      </div>
+
+      <div id="results"></div>
+
+      <div class="footer">
+        <button id="optionsBtn" class="secondaryBtn">Options</button>
+        <button id="toggleHighlight" class="primaryBtn">
+          Toggle Highlight
+        </button>
+      </div>
+    </div>
+
+    <div id="subcategoriesView" style="display: none">
+      <button id="subcategoriesBackBtn" class="secondaryBtn">Back</button>
+      <h2 id="subcategoryTitle"></h2>
+      <div id="subcategoryContent"></div>
+    </div>
+
+    <div id="detailsView" style="display: none">
+      <button id="backBtn" class="secondaryBtn">Back</button>
+      <h2 id="detailTitle"></h2>
+      <div id="detailContent"></div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
