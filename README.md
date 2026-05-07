@@ -1,5 +1,7 @@
 # PolicyScope
 
+> 3rd Place — NJIT Spring 2026 Student Startup Showcase
+
 PolicyScope is a Chrome extension designed to help users better understand long and often confusing Terms of Service, Conditions of Use, and Privacy Policy pages before agreeing to them. Instead of forcing users to manually scan dense legal text, the extension detects important clauses, highlights them directly on the page, groups them into broader user-friendly categories, and generates plain-English summaries through an AI-assisted backend.
 
 The goal of the project is to reduce the friction between legal language and user understanding. Many websites include important information about data collection, data sharing, billing, dispute resolution, account termination, user-generated content rights, and policy changes, but those details are usually buried in long documents. PolicyScope helps surface that information in a way that is faster to scan, easier to understand, and easier to navigate.
