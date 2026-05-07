@@ -24,6 +24,16 @@ At a high level, the user experience is:
 
 ---
 
+## Demo
+
+### Extension in Action
+![Full Demo](assets/PolicyScope%20Demo%20In%20Use.gif)
+
+### UI Walkthrough
+![UI Demo](assets/PolicyScope%20Ext%20In%20Use.gif)
+
+---
+
 ## Core Features
 
 ### 1. Sentence-Level Highlighting
